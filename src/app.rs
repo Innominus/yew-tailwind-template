@@ -5,7 +5,7 @@ pub mod app {
     #[function_component(App)]
     pub fn app() -> Html {
         html! {
-            <div class="font-mono opacity-fade-in">
+            <div>
                 <Index />
             </div>
         }
